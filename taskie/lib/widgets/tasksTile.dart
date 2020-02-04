@@ -6,7 +6,7 @@ class TaskTile extends StatefulWidget {
 }
 
 class _TaskTileState extends State<TaskTile> {
-  bool isChecked = true;
+  bool isChecked = false;
 
   void checkboxToggle(newValue) {
     setState(() {
